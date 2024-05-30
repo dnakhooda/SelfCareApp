@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/settingsLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/SampleTextSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settingsTitle"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/settingsNotificationsCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="@string/settingsGiveNotifications"
+            android:buttonTint="@color/dark_blue"/>
+
+        <CheckBox
+            android:id="@+id/settingsEndOfDayNotificationsCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="@string/settingsGiveEndOfDayNotifications"
+            android:buttonTint="@color/dark_blue"/>
+
+        <TextView
+            android:id="@+id/settingsDailyNotificationsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settingsEndOfDayNotificationsTime"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="48dp"/>
+
+        <TimePicker
+            android:id="@+id/settingsDailyNotificationsPicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:headerBackground="@color/dark_blue"
+            android:numbersSelectorColor="@color/dark_blue"/>
+
+    </LinearLayout>
+
+</ScrollView>

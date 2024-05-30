@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/additionTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="@string/additionTitleText"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/additionTitleInputLayout"
+            android:layout_width="256dp"
+            android:layout_height="92dp"
+            android:layout_marginTop="10dp"
+            android:hint="@string/additionTitleText">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/additionTitleInput"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:maxLines="1"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/additionCategoryText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="@string/additionCategoryText"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/additionCategoryGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <RadioButton
+                android:id="@+id/additionHygieneButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:buttonTint="@color/dark_blue"
+                android:checked="false"
+                android:text="@string/hygieneText" />
+
+            <RadioButton
+                android:id="@+id/additionMedicalButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:buttonTint="@color/dark_blue"
+                android:checked="false"
+                android:text="@string/medicalText" />
+
+            <RadioButton
+                android:id="@+id/additionVitaminsButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:buttonTint="@color/dark_blue"
+                android:checked="false"
+                android:text="@string/vitaminsText" />
+
+            <RadioButton
+                android:id="@+id/additionExerciseButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:buttonTint="@color/dark_blue"
+                android:checked="false"
+                android:text="@string/exerciseText" />
+
+            <RadioButton
+                android:id="@+id/additionMindButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:buttonTint="@color/dark_blue"
+                android:checked="false"
+                android:text="@string/mindText" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/additionTimeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="@string/additionTimeText"
+            android:textStyle="bold" />
+
+        <TimePicker
+            android:id="@+id/additionTimePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:headerBackground="@color/dark_blue"
+            android:numbersSelectorColor="@color/dark_blue">
+
+        </TimePicker>
+
+        <TextView
+            android:id="@+id/additionDaysPerWeekText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="@string/additionDaysPerWeek"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/additionMondayButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:buttonTint="@color/dark_blue"
+                android:text="@string/monday" />
+
+            <CheckBox
+                android:id="@+id/additionTuesdayButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:buttonTint="@color/dark_blue"
+                android:text="@string/tuesday" />
+
+            <CheckBox
+                android:id="@+id/additionWednesdayButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:buttonTint="@color/dark_blue"
+                android:text="@string/wednesday" />
+
+            <CheckBox
+                android:id="@+id/additionThursdayButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:buttonTint="@color/dark_blue"
+                android:text="@string/thursday" />
+
+            <CheckBox
+                android:id="@+id/additionFridayButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:buttonTint="@color/dark_blue"
+                android:text="@string/friday" />
+
+            <CheckBox
+                android:id="@+id/additionSaturdayButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:buttonTint="@color/dark_blue"
+                android:text="@string/saturday" />
+
+            <CheckBox
+                android:id="@+id/additionSundayButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:buttonTint="@color/dark_blue"
+                android:text="@string/sunday" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/additionDeleteButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/red"
+                android:text="@string/additionDelete"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/additionCancelButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/gray"
+                android:textStyle="bold"
+                android:text="@string/additionCancel" />
+
+            <Button
+                android:id="@+id/additionAddButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/green"
+                android:textStyle="bold"
+                android:text="@string/additionSave" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>

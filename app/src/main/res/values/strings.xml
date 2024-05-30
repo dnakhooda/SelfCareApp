@@ -1,0 +1,45 @@
+<resources>
+    <string name="appName">SelfCare</string>
+
+    <string name="mainIcon">Main Icon</string>
+
+    <string name="ignoreText">Ignore</string>
+    <string name="checkText">Check</string>
+    <string name="categoryImageText">Category Image</string>
+
+    <string name="editTitle">Edit</string>
+    <string name="editText">Edit</string>
+    <string name="editPlus">+</string>
+
+    <string name="additionTitleText">Title</string>
+    <string name="additionCategoryText">Category</string>
+    <string name="additionTimeText">Time of Day</string>
+    <string name="additionDaysPerWeek">Days Per Week</string>
+    <string name="additionDelete">Delete</string>
+    <string name="additionCancel">Cancel</string>
+    <string name="additionSave">Save</string>
+
+    <string name="displayTitle">Display</string>
+
+    <string name="recommendedTitle">Recommended</string>
+    <string name="recommendedItemAdd">Add</string>
+
+    <string name="settingsTitle">Settings</string>
+    <string name="settingsGiveNotifications">Give Notifications</string>
+    <string name="settingsGiveEndOfDayNotifications">Give End of Day Notifications</string>
+    <string name="settingsEndOfDayNotificationsTime">Time of Daily Notifications</string>
+
+    <string name="hygieneText">Hygiene</string>
+    <string name="medicalText">Medical</string>
+    <string name="mindText">Mind</string>
+    <string name="vitaminsText">Vitamins</string>
+    <string name="exerciseText">Exercise</string>
+
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+</resources>

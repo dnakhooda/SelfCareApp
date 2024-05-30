@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/displayItemNav"
+        android:icon="@drawable/task"
+        android:title="@string/displayTitle" />
+    <item
+        android:id="@+id/editItemNav"
+        android:icon="@drawable/edit"
+        android:title="@string/editTitle" />
+    <item
+        android:id="@+id/recommendedItemNav"
+        android:icon="@drawable/recommended"
+        android:title="@string/recommendedTitle" />
+    <item
+        android:id="@+id/settingsItemNav"
+        android:icon="@drawable/settings"
+        android:title="@string/settingsTitle" />
+</menu>

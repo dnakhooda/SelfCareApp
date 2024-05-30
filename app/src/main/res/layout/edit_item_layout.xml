@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="400dp"
+    android:layout_height="120dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/editItemConstraintLayout"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/dark_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/editItemTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/editItemButton"
+            app:layout_constraintStart_toEndOf="@+id/editItemCategorySymbol"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/editItemCategorySymbol"
+            android:contentDescription="@string/categoryImageText"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <Button
+            android:id="@+id/editItemButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="4dp"
+            android:background="@color/gray"
+            android:text="@string/editText"
+            android:textColor="#000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/editItemTimeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/editItemConstraintLayout"
+        app:layout_constraintHorizontal_bias="0.314"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.504" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="10dp"
+        android:background="@android:color/background_dark"
+        app:layout_constraintEnd_toStartOf="@+id/editItemConstraintLayout"
+        app:layout_constraintStart_toEndOf="@+id/editItemTimeText"
+        tools:layout_editor_absoluteY="10dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
