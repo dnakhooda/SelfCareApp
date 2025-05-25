@@ -1,6 +1,6 @@
 <h1>🪥 Self Care App ❤️</h1>
 
-<p>Self Care App is an Android application made to help people keep track of self-care-related tasks. This app was made for my mother as part of a High School Computer Science project.</p>
+<p>Self Care App is an Android application made to help users calculate expenses, find ways to save money, and plan for the future. This app was made for my mother as part of a High School Computer Science project.</p>
 
 <h2>Screenshots 📸</h2>
 
