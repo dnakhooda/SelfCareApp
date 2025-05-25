@@ -15,6 +15,8 @@
 
 <h2>Features ✨</h2>
 
-<p>
-  The edit page of the app lets you modify existing tasks or create your own. To create a task, you need to assign it a category, set a recurring time, and choose the days of the week you'll do it. Self Care App also offers recommended tasks that you can easily add to your schedule. Self Care App sends notifications to remind you to complete your self-care tasks at the set times and on the selected days. You can use the app’s display page to either check off or ignore each task. At the end of the day, Self Care App sends a notification summarizing how well you did in completing your tasks. The settings page lets you toggle general task notifications, turn daily notifications on or off, and set the time for your daily reminder.
-</p>
+The edit page of the app lets you modify existing tasks or create your own. To create a task, you need to assign it a category, set a recurring time, and choose the days of the week you'll do it. Self Care App also offers recommended tasks that you can easily add to your schedule. 
+
+Self Care App sends notifications to remind you to complete your self-care tasks at the set times and on the selected days. You can use the app’s display page to either check off or ignore each task. At the end of the day, Self Care App sends a notification summarizing how well you did in completing your tasks. 
+
+The settings page lets you toggle general task notifications, turn daily notifications on or off, and set the time for your daily reminder.
