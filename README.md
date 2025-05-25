@@ -1,4 +1,4 @@
-<h1>Self Care App</h1>
+<h1>🪥 Self Care App ❤️</h1>
 
 <p>
   <img src="https://github.com/user-attachments/assets/30977383-5bac-4b20-8fb7-71008d8878ef" width="265" />
