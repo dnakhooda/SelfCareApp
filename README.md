@@ -20,3 +20,7 @@ The edit page of the app lets you modify existing tasks or create your own. To c
 Self Care App sends notifications to remind you to complete your self-care tasks at the set times and on the selected days. You can use the app’s display page to either check off or ignore each task. At the end of the day, Self Care App sends a notification summarizing how well you did in completing your tasks. 
 
 The settings page lets you toggle general task notifications, turn daily notifications on or off, and set the time for your daily reminder.
+
+<h2>Getting Self Care App 🪥❤️</h2>
+
+Unfortunately, Self Care App is not Google Play Store. So, the only way to get Self Care App is by building the code from this repository and using developer tools to install it on your device.
