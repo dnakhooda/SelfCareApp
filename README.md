@@ -4,7 +4,7 @@
 
 <h2>Screenshots 📸</h2>
 
-<p>
+<p align="center">
   <img src="https://github.com/user-attachments/assets/30977383-5bac-4b20-8fb7-71008d8878ef" width="265" />
   <img src="https://github.com/user-attachments/assets/0438898e-8079-484c-b7b3-5578f04c72e9" width="265" />
   <img src="https://github.com/user-attachments/assets/6db87ace-b795-422a-864b-9d8669403dc3" width="265" />
