@@ -23,4 +23,4 @@ The settings page lets you toggle general task notifications, turn daily notific
 
 <h2>Getting Self Care App 🪥❤️</h2>
 
-Unfortunately, Self Care App is not Google Play Store. So, the only way to get Self Care App is by building the code from this repository and using developer tools to install it on your device.
+Unfortunately, Self Care App is not Google Play Store. So, the only way to get Self Care App is by building the code from this repository in Android Studio and using developer tools to install it on your device.
